@@ -1,0 +1,49 @@
+Margin:
++-----------------------------------+
+|                                   | <- Outer edge of the margin
+|   +-------------------------------+
+|   |                               | <- Border edge (outer edge of the element)
+| M |                               |
+| a |                               |
+| r |        Element               | <- Element's content
+| g |                               |
+| i |                               |
+| n |                               |
+|   |                               | <- Border edge (outer edge of the element)
+|   +-------------------------------+
+|                                   | <- Outer edge of the margin
++-----------------------------------+
+
+Padding:
++-------------------------------+
+|                               | <- Border edge (outer edge of the element)
+|  +----------------------------+ 
+|  | Padding (Top)             |
+|  |  +---------------------+  |
+|P |  |                     |  |
+|a |  | Element Content     |  |
+|d |  |                     |  |
+|d |L |                     |R |
+|i |e |                     |i |
+|n |f |                     |g |
+|g |t |                     |h |
+|  |  |                     |t |
+|  +--+---------------------+  |
+|      Padding (Bottom)         |
+|                               | <- Border edge (outer edge of the element)
++-------------------------------+
+
+
+String interpolation and multi-line strings are not supported within single quotes.
+
+// Multi-line string
+const multiLineString = `This is a
+multi-line
+string.`;
+
+
+const stringWithQuotes = "She said, 'Hello, World!'";
+
+const stringWithQuotes = 'She said, "Hello, World!"';
+
+const stringWithQuotes = "She said, \"Hello, World!\"";

@@ -1,0 +1,80 @@
+.nav {
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	width: 100%;
+	height: 30px;
+
+	transition-timing-function: ease-in;
+	transition: all 0.5s;
+	z-index: 10;
+
+}
+
+.nav_black {
+	position: fixed;
+	background-color: black;
+
+}
+
+.nav_contents {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_logo {
+	position: fixed;
+	top: 10;
+	left: 0;
+	width: 100px;
+	margin-left: 68px;
+	object-fit: contain;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+.navbarItem_contents {
+	display: flex;
+	flex-direction: row;
+	margin-left: 178px;
+	margin-top: 4px;
+}
+
+.navbar_browse {
+	display: none;
+}
+
+@media screen and (max-width: 885px) {
+	.navbarItem_contents {
+		display: none;
+	}
+
+	.navbar_browse {
+		display: block;
+	}
+}
+
+.browse {
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 4px;
+	align-items: center;
+
+	cursor: pointer;
+	position: relative;
+}
+
+.chevron {
+	color: #fff;
+	margin-left: 6px;
+	margin-top: 4px;
+}
+
+.nav_avatar {
+	position: fixed;
+	right: 20px;
+	width: 30px;
+	cursor: pointer;
+}

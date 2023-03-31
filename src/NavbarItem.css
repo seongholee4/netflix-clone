@@ -1,0 +1,19 @@
+.navbarItem {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarItem>h2:hover {
+    color: #e6e6e685;
+    transition: all 0.5s
+}
+
+.navbarItem>h2 {
+    color: #ffffffec;
+    font-size: 15px;
+    font-weight: 465;
+    margin-right: 4px;
+}
