@@ -35,7 +35,7 @@ function App() {
           <Routes>
             <Route path="/profile" element={<ProfileScreen />} />
             
-            <Route exact path="/" element={<HomeScreen />} />;
+            <Route exact path="/" element={<HomeScreen/>} />;
           </Routes>
         )}
       </BrowserRouter>
